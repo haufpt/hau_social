@@ -39,3 +39,8 @@
 - yarn add @type/express --dev
 - yarn add typescript nodemon ts-node --dev (neu mo trong may khac khong can cai lai)
 - yarn server (chay cai script trong package.json)
+
+### lession 13: cấu hình kết nối csdl MongoDb
+
+- yarn add mongoose
+- yarn add @types/mongoose --dev
