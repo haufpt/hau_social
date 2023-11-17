@@ -44,3 +44,5 @@
 
 - yarn add mongoose
 - yarn add @types/mongoose --dev
+- https://github.com/Automattic/mongoose
+  -- okk
