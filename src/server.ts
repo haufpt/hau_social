@@ -1,13 +1,7 @@
-import express, { Request, Response } from 'express'
+import App from "./app";
+import { IndexRoute } from "./modules/index";
 
-const port = process.env.PORT || 9999;
+const routes = [new IndexRoute()];
+const app =new App(routes);// tuong duong app.get('path', xu ly)
 
-const app =express();
-
-app.get('/',  (req: Request, res: Response)=>{
-    res.send('Api is running...');
-});
-
-app.listen(port, ()=>{
-    console.log(`Server is lisening on port ${port}`);
-});
+app.listen();
