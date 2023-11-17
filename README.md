@@ -9,6 +9,8 @@
 
 ## Command remembers
 
+### Lession 9
+
 - yarn init: để tạo package.json
 - git init
 - git \*
@@ -21,4 +23,12 @@
 - git branch -M main
 - git push -u origin main
 
-##ok
+### Lession 10 - Cấu hình biên dịch TypeScript
+
+- tsc --init
+- "rootDir": "./", /_ Specify the root folder within your source files. _/
+  "moduleResolution": "node10",
+- "outDir": "./dist",
+- sourceMap": true,
+- "baseUrl": "./src",
+- "experimentalDecorators": true,
