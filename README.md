@@ -32,3 +32,10 @@
 - sourceMap": true,
 - "baseUrl": "./src",
 - "experimentalDecorators": true,
+
+### Lession 11 viêts app express đầu tiên
+
+- yarn add express
+- yarn add @type/express --dev
+- yarn add typescript nodemon ts-node --dev (neu mo trong may khac khong can cai lai)
+- yarn server (chay cai script trong package.json)
