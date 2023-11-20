@@ -46,3 +46,7 @@
 - yarn add @types/mongoose --dev
 - https://github.com/Automattic/mongoose
   -- okk
+
+### lession 14: lam viec voi file cau hinh
+- yarn add dotenv(quan li file moi truong)
+- yarn add cross-env --dev(chay nhieu moi truoong)

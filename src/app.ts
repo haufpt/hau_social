@@ -26,7 +26,13 @@ class App{
 
     private connectToDatabase(){
 
-        const connectString='mongodb+srv://nguyenduchau12g:projectdautien@main.sbksmxq.mongodb.net/?retryWrites=true&w=majority';
+        // const connectString=process.env.MONGODB_URL;
+        // if(!connectString){
+        //     console.log('string connect is invalidate');
+        //     return;
+        // }
+        const connectString="mongodb+srv://nguyenduchau12g:projectdautien@main.sbksmxq.mongodb.net/?retryWrites=true&w=majority";
+        
         try {
             mongoose.connect(connectString);
             console.log('Connect db success')
