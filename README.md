@@ -48,5 +48,16 @@
   -- okk
 
 ### lession 14: lam viec voi file cau hinh
+
 - yarn add dotenv(quan li file moi truong)
 - yarn add cross-env --dev(chay nhieu moi truoong)
+
+### lession 15:cai dat cac middleware can thiet
+
+- yarn add hpp helmet morgan cors
+- yarn add @type/hpp @type/morgan @type/morgan --dev
+  -- yarn add wiston
+
+### Reference
+
+- https://expressjs.com/en/resources/middleware/morgan.html
